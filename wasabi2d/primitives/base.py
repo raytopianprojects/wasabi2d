@@ -84,7 +84,7 @@ class Transformable:
 
     @property
     def scale(self):
-        p = np.product(np.diagonal(self._scale))
+        p = np.prod(np.diagonal(self._scale))
         return np.copysign(np.sqrt(abs(p)), p)
 
     @scale.setter

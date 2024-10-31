@@ -122,3 +122,4 @@ screenshot_*.png
 tests/failed-image/
 
 examples/pixel/split-images/*
+*.idea
